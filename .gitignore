@@ -15,5 +15,3 @@
 # Ignore Terraform module files 
 terraform.lock.hcl
 .terraform.lock.hcl
-
-
