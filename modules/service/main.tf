@@ -18,6 +18,5 @@ resource "aws_ecs_service" "Superset_Service" {
   }
 
   tags = {
-    Name = "superset-service"
-  }
+    Name = "${var.app_name}-${var.env_name}"  }
 }

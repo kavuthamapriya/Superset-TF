@@ -17,3 +17,12 @@ variable "vpc_id" {
   description = "The VPC ID"
   type        = string
 }
+variable "app_name" {
+  description = "Application Name"
+  type        = string
+}
+
+variable "env_name" {
+  description = "Environment Name"
+  type        = string
+}

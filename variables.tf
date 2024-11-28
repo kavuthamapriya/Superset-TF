@@ -1,25 +1,12 @@
-variable "ecs_cluster_name" {
-  description = "The ECS Cluster Name"
+
+variable "vpc_cidr_block" {
+  description = "The CIDR block for the VPC"
   type        = string
+  default     = "10.0.0.0/16" 
 }
 
-variable "task_arn" {
-  description = "The ARN of the ECS task"
+variable "subnet_cidr_block" {
+  description = "The CIDR block for the Subnet"
   type        = string
+  default     = "10.0.1.0/24"
 }
-
-variable "subnet_id" {
-  description = "The ID of the subnet"
-  type        = string
-}
-
-variable "vpc_id" {
-  description = "The VPC ID"
-  type        = string
-}
-
-variable "cluster_id" {
-  description = "The ECS Cluster ID"
-  type        = string
-}
-
