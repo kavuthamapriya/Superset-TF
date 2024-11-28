@@ -12,6 +12,8 @@
 # Ignore tfvars files, which may contain sensitive data
 *.tfvars
 
-# Ignore Terraform module vendor files 
+# Ignore Terraform module files 
 terraform.lock.hcl
+.terraform.lock.hcl
+
 
